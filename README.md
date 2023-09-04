@@ -1,9 +1,23 @@
 # Analise-grafica-estupro-assedio-e-lesao-corporal-2021
 
-Dashboard com gráfico que permite análise dos crimes de estupro, assédio sexual e lesão corporal cometidos no Brasil no primeiro semestre de 2021.
+Dashboard with graphics containing information about rape, sexual harassment and bodily injury commited in Brasil in the first semester of 2021.
 
-A base de dados pode ser acessada na seguinte URL: https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/ligue180/copy_of_primeiro-semestre-de-2021
+The database can be found in the [Brazilian Government Official Site](https://www.gov.br/mdh/pt-br/acesso-a-informacao/dados-abertos/ligue180/copy_of_primeiro-semestre-de-2021).
 
-A implementação pode ser feita fazendo download da base de dados ou usando um jupyter notebook (comando !wget).
+It's import can be done by downloading the database with a Google Drive account or using the `!wget <link>` command.
 
-O presente projeto consiste na criação de uma dashboard utilizando a linguagem Python. A leitura do arquivo CSV (disponibilizado pela Central de Atendimento à Mulher) foi feita usando a biblioteca Pandas. Para a criação da dashboard, a biblioteca Dash foi usada em conjunto com a biblioteca Plotly (responsável por plotar o gráfico resultante). O uso das bibliotecas Pandas e NumPy foram limitados para que houvesse maior desenvolvimento das habilidades de manipulação de dados usando as estruturas nativas da linguagem Python.
+**Resume**
+
+In this project, I created a dashboard using Python, Pandas and Plotly. The reading of the CSV file (provided by Women Call Center - Brazilian Government) was done using Pandas. For the dashboard, I used Dash and Plotly (data visualization). Although Pandas and NumPy were used, their use was limited for educational purpose (using Python language and it's standard data structures for data manipulation)
+
+This was my first data science project, hope you like it!
+
+**Used technologies:**
+
+<div id=imagens>
+  <img src='https://cdn.iconscout.com/icon/free/png-256/free-python-3628999-3030224.png?f=webp' width=100px>        
+  <img src='https://getlogovector.com/wp-content/uploads/2020/09/plotly-logo-vector.png' width=200px>
+  <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/2560px-Pandas_logo.svg.png' width=200px>
+  <img src='https://dash.gallery/Manager/portals_data/default/logo_8a3aad42-392d-11ed-becf-0242ac110014.png' width=200px>
+</div>
+
